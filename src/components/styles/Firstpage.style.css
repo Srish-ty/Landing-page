@@ -1,0 +1,30 @@
+.fcontainer{
+    font-family: Arial, Helvetica, sans-serif;
+
+    width: 1080px;
+    margin: 1vw auto;
+    border: 1px solid navy;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 30vw;
+    align-items: center;
+}
+
+.p1{
+    width: 30%;
+    border: 1px solid red;
+    padding: 1vw 2vw;
+}
+
+.v1{
+    width: 563px;
+    height: 369px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+}
+.v1-image{
+    width: 100%;
+    height: auto;
+}
