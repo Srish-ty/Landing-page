@@ -1,9 +1,10 @@
 .fcontainer{
     font-family: Arial, Helvetica, sans-serif;
-
-    width: 1080px;
-    margin: 1vw auto;
-    border: 1px solid navy;
+/*  font-family: 'Montserrat' */
+    font-size: larger;
+    width: 80%;
+    margin: 4vw auto;
+    border: 0px solid navy;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -13,18 +14,45 @@
 
 .p1{
     width: 30%;
-    border: 1px solid red;
+    border: 0px solid red;
     padding: 1vw 2vw;
+    display: flex; flex-direction: column;
+    align-items: flex-start;
 }
 
 .v1{
     width: 563px;
     height: 369px;
-    border: 1px solid red;
+    border: 0px solid red;
     display: flex;
     align-items: center;
 }
 .v1-image{
     width: 100%;
     height: auto;
+}
+
+.smalle{
+    border:0px solid pink;
+    font-size: 0.7em;
+    display: flex;
+}
+
+@media only screen and (max-width:1000px){
+.fcontainer{
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+.p1{
+    width: 75%;
+}
+.v1{
+    width: 75%;
+    height: auto;
+}
+.v1-image{
+    height: 100%;
+}
+
 }

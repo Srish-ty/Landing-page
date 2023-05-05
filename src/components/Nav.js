@@ -1,5 +1,5 @@
-import "./styles/Nav.styles.css";
 import { BlueBu } from "./atoms/BlueBu"
+import "./styles/Nav.styles.css";
 
 export const Nav = () => {
   return (
