@@ -4,6 +4,7 @@ import { FirstPage } from "./components/slides/FirstPage";
 import { Banner } from "./components/atoms/Banner";
 import { SecondPage } from "./components/slides/SecondPage";
 import { ThirdPage } from "./components/slides/ThirdPage";
+import { FourthPage } from "./components/slides/FourthPage";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <Banner/>
       <SecondPage/>
       <ThirdPage/>
+      <FourthPage/>
     </div>
   );
 }
