@@ -20,14 +20,23 @@
     text-align: center;
     justify-content: center;
     flex-direction: column;
+    border: 0px solid navy;
 }    
-.fpara{
-    text-align: center; border: 1px solid red; width: 60%;
-}
+
 }
 .fpara{
     text-align: left;
 }
 .fpara {
     width: 40%;
+}
+.fpimg{
+    width: 540px;
+    height: 303px;
+}
+@media only screen and (max-width:700px) {
+    .fpara{
+        width: 80%;
+        text-align: center; border: 0px solid red;
+    }    
 }

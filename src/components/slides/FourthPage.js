@@ -28,8 +28,8 @@ export const FourthPage = () => {
         <img className='fimg' alt='fpimg' src={fp3}></img>
       </div>
       
-    </div>
     <BlueBu>Create a Free AI Video</BlueBu>
+    </div>
     </>
   )
 }
